@@ -1,10 +1,23 @@
 /* body{ 
     color: rgb(14, 129, 22);
 } */
-
-/* h2 {
-    color: green;
-} */
-body {
-    color: red;
+/* selector a partir de una etiqueta */
+ h2 {
+    color: blue;
+} 
+ /*seleccion a partir de una clase  */
+    .texto-verde{
+        color: green;
+    }
+footer {
+    color: blueviolet;
+}
+/* seleccion a partir de un id */
+#parrafo-rosa {
+    color: pink;
+    font-size: 30px;
+}
+/* selector a partir de etiquetas combinadas     */
+header p {
+    color: aqua;
 }
